@@ -9,5 +9,7 @@ A blockchain use case for keeping track of personal/identifiable arguments durin
 Example use case: If an organization goes through a long process of coming to a decision the process of coming to that decision
 can easily be reviewed and the review trusted.
 
+This can be apply to public and private blockchains.
+
 For now the concept and general application is being posted to this GitHub.
 
