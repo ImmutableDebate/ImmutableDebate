@@ -1,5 +1,6 @@
 # ImmutableDebate
 © ImmutableDebate 2019
+
 A blockchain use case for keeping track of personal/identifiable arguments during a discussion or debate.
 
 -Each blockchain is kept until the debate is settled
