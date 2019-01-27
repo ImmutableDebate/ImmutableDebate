@@ -5,12 +5,14 @@ contract YesorNo{
 	//quick yes or no
   struct arguer{
 	string name;
+	bool voted;
   }
   
   mapping(address => arguer) arguers;
   event Argument(bool b, arguer arg);
   
-  function sendEvent(bool _argum, string _n) public returns (bool) { 
+  function sendEvent(bool _argum, string _n) public returns (bool) {
+    require(voted == false);
     arguer newArguer = arguer({
 	name: _n;
 	});
