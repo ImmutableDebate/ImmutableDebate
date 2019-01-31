@@ -7,14 +7,15 @@ contract Debate{
   }
   
   mapping(address => arguer) arguers;
-  event Argument(string a, arguer arg);
+  event Argument(string a, bool c, arguer arg);
   
-  function sendEvent(string _argum, string _n) public returns (string){ 
+  function sendEvent(string _argum, string _n, bool _change) public returns (string){ 
     arguer newArguer = arguer({
 	name: _n;
 	});
 	arguers[msg.sender] = newArguer;
-	emit Argument(_argum, arguers[msg.sender]); 
+	//emit argument with statement,whether a change of opinion occurred, and address
+	emit Argument(_argum, _change,arguers[msg.sender]); 
 	return _argum;
   }
 
