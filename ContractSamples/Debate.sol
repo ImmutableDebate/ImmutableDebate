@@ -11,7 +11,7 @@ contract Debate is Ownable{
   event Argument(string a, bool c, uint8 conf, arguer arg);
   event PossibleChangePending(string cp, address a); 
   
-  function sendEvent(string _argum, string _n, bool _change, uint8 _confidence) public returns (string, string, bool, uint8) isOwner{ 
+  function sendEvent(string _argum, string _n, bool _change, uint8 _confidence) public returns (string, string, bool, uint8) onlyOwner{ 
     arguer newArguer = arguer({
 	name: _n;
 	});
