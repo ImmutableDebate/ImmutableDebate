@@ -20,4 +20,4 @@ This can be apply to public and private blockchains.
 ## Future development
 For now the concept and general application is being posted to this GitHub.
 
-Ultimately, there will be blockchain analytics that can analyze and breakdown decision-making processing that have been been made in an organization.
+Ultimately, there will be blockchain analytics that can analyze and breakdown decision-making processes that have been been made in an organization.
