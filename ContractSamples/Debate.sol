@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-contract Debate{
+contract Debate is Ownable{
 
   struct arguer{
 	string name;
