@@ -11,7 +11,7 @@ A blockchain use case for keeping track of personal/identifiable arguments durin
 
 ## Use Case
 Example use case: If an organization goes through a long process of coming to a decision the process of coming to that decision
-can easily be reviewed and the review trusted.
+can easily be reviewed and the review trusted. If the decision is made across several locations miles apart the risk that a decision making process may be interfered with increases and the blockchain can resist attempts at doing this. Emails, for one, are at risk for being spoofed or tampered with.
 
 ## Private blockchains
 This can be apply to public and private blockchains.
