@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-contract YesorNo{
+contract YesorNo is Ownable{
 	
 	//quick yes or no
   struct arguer{
