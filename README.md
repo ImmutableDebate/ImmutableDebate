@@ -23,3 +23,5 @@ For now the concept and general application is being posted to this GitHub.
 Ultimately, there will be blockchain analytics that can analyze and breakdown decision-making processes that have been been made in an organization.
 
 A challenge in mind is to store local to global events that occur throughout the decision-making process on the blockchain.
+
+Additionally, future use cases for the concept could be making explanations for the actions of semi-large or large organizations.
